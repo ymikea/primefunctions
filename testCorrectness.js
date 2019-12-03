@@ -28,4 +28,17 @@ describe('Test for Correctness', function () {
       chai.expect(cumulativeSum([10, 11, 12, 13, 14])).deep.equal([10, 21, 33, 46, 60]);
     });
   });
+  /* eslint-env mocha, chai */
+  // eslint-disable-next-line no-redeclare
+  /* global chai, maxPrimeSum */
+
+  // maxPrimeSum() test cases
+  describe('maxPrimeSum', function () {
+    it('maxPrimeSum(100) = [41, 6]', function () {
+      chai.expect(maxPrimeSum(100)).deep.equal([41, 6]);
+    });
+    it('maxPrimeSum(1000) = [953, 21]', function () {
+      chai.expect(maxPrimeSum(1000)).deep.equal([953, 21]);
+    });
+  });
 });
