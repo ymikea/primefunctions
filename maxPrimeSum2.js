@@ -1,6 +1,6 @@
 // Yekaalo Habtemichael
 // CS 320
-// Version 1 -Optimized
+// Version 2 -Optimized
 
 // Original version seems to have over 5000ms time and i optimized it
 // using sieve Of Eratosthenes algorithm made it very faster
