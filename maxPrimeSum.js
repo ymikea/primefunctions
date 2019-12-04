@@ -1,5 +1,6 @@
 // Yekaalo Habtemichael
 // CS 320
+// Version 1 -Orignal
 
 function primeGen(give) {
   const arr = [];
